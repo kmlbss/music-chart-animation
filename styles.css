@@ -1,0 +1,135 @@
+*:not(i){
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Gilroy", Arial, sans-serif !important;
+  }
+  :focus {
+    outline: none;
+  }
+  ::selection {
+    background-color: 0F0E0E;
+    color: white;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+  button:focus {
+    outline: none !important;
+  }
+  body{
+    background: #0F0E0E;
+  }
+
+  .wrapper{
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+  }
+
+  div{
+    width: 25px;
+    height: 60px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: fixed;
+  }
+
+
+  .line1{
+    background-color: #078232;
+    animation: animate1 1.9s linear infinite;
+    top: 200px;
+    left: 60px;
+  }
+  .line2{
+    background-color: #078232;
+    animation: animate2 2.1s linear infinite;
+    top: 200px;
+    left: 95px;
+  }
+  .line3{
+    background-color: #078232;
+    animation: animate3 2.33s linear infinite;
+    top: 200px;
+    left: 130px;
+  }
+  .line4{
+    background-color: #078232;
+    animation: animate4 2.33s linear infinite;
+    top: 200px;
+    left: 165px;
+  }
+  .line5{
+    background-color: #078232;
+    animation: animate5 1.7s linear infinite;
+    top: 200px;
+    left: 200px;
+  }
+  .line6{
+    background-color: #078232;
+    animation: animate6 2.0s linear infinite;
+    top: 200px;
+    left: 235px;
+  }
+  .line7{
+    background-color: #078232;
+    animation: animate7 1.8s linear infinite;
+    top: 200px;
+    left: 270px;
+  }
+   @keyframes animate1{
+    50%{
+        background-color: #1DB954;
+        top: 100px;
+        height:160px;
+    }
+   }
+   @keyframes animate2{
+    50%{
+        background-color: #1DB954;
+        top: 50px;
+        height:210px;
+    }
+   }
+   @keyframes animate3{
+    50%{
+        background-color: #1DB954;
+        top: 10px;
+        height:250px;
+    }
+   }
+   @keyframes animate4{
+    50%{
+        background-color: #1DB954;
+        top: 100px;
+        height:160px;
+    }
+   }
+   @keyframes animate5{
+    50%{
+        background-color: #1DB954;
+        top: 50px;
+        height:210px;
+    }
+   }
+   @keyframes animate6{
+    50%{
+        background-color: #1DB954;
+        top: 150px;
+        height:110px;
+    }
+   }
+   @keyframes animate7{
+    50%{
+        background-color: #1DB954;
+        top: 50px;
+        height:210px;
+    }
+   }
